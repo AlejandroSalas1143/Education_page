@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Espacio Geografico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <a href="index.html" class="logo">
+            <img src="./logos/logo_universo.png" alt="logo" class="logo">
+        </a>
+        <div class="navbar-left">
+            <ul>
+                <li class="dropdown">
+                    <a href="universo.html" class="nav-bot">El Universo</a>
+                    <div class="dropdown-content">
+                        <a href="#">Concepto</a>
+                        <a href="#">Origen y composición del universo</a>
+                        <a href="#">El sistema solar</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="tierra.html" class="nav-bot">La Tierra</a>
+                    <div class="dropdown-content">
+                        <a href="#">Origen de la tierra</a>
+                        <a href="#">Las eras geológicas</a>
+                        <a href="#">Estructura de la tierra</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="oyehumano.html" class="nav-bot">Origen y evolución del ser humano</a>
+                    <div class="dropdown-content">
+                        <a href="#">Origen y antepasado del hombre</a>
+                        <a href="#">Migración y poblamiento de los continentes</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Buscar...">
+            <button onclick="search()">Buscar</button>
+            <div id="navigationContainer"></div>
+        </div>
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="#">El Universo</a></li>
+                <li><a href="#">La Tierra</a></li>
+                <li><a href="#">Origen y evolución del ser humano</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="sections-container">
+        <!-- Sección 1 -->
+
+        <div class="section1">
+            <h2>Navega a través de esta sección</h2>
+            <ul class="Navegación">
+                <li><a href="#concepto">Concepto</a></li>
+                <li><a href="#elementos_uni">Elementos del Universo</a></li>
+                <li><a href="#oycuniverso">Origen y composición del universo</a></li>
+                <li><a href="#sistemasolar">El sistema solar</a></li>
+                <!-- Agrega más elementos de lista según sea necesario -->
+            </ul>
+        </div>
+
+
+        <!-- Sección 2 -->
+        <div class="section" id="section2">
+            <div class="image-container2">
+                <img src="https://www.ngenespanol.com/wp-content/uploads/2024/01/que-tan-frio-es-el-espacio-exterior-1024x573.jpg"
+                    alt="uni">
+            </div>
+            <h1>El Universo</h1>
+            <div>
+                <p>
+                    ¿Se originó el universo según la teoría del Big Bang?
+
+                    En este primer tema tendrás la oportunidad de conocer lo fascinante que es el universo, su
+                    composición, la forma como se originó y muchas cosas maravillosas e interesantes
+
+                </p>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <h2 class="concepto" id="concepto">Concepto</h2>
+            <div class="section2">
+                <div class="info-intr">
+                    <p>El universo es todo lo que existe, incluyendo toda la materia, energía, espacio y tiempo. Se
+                        trata de un término utilizado para describir todo lo que podemos observar y medir, así como todo
+                        lo que aún no hemos descubierto. </p>
+                    <p>El universo es todo lo que existe, incluyendo toda la materia, energía, espacio y tiempo. Se
+                        trata de un término utilizado para describir todo lo que podemos observar y medir, así como todo
+                        lo que aún no hemos descubierto.
+                    </p>
+                    <p>
+                        Aunque la ciencia ha avanzado mucho en la comprensión del universo, todavía hay muchos misterios
+                        sin resolver, como la materia oscura y la energía oscura. Sin embargo, el estudio del universo
+                        continúa siendo una de las áreas más fascinantes y emocionantes de la ciencia.
+                    </p>
+                    <p>
+                        En todas las épocas, la humanidad ha tratado de entender la naturaleza en su conjunto, el
+                        Universo, y de comprender su lugar en él. Desde los orígenes de la civilización, todas las
+                        culturas han propuesto representaciones del Universo, de tipo mitológico o religioso primero, y
+                        desde un punto de vista científico después. La ciencia actual tiene su propia interpretación de
+                        cómo es el Universo, una idea del cosmos basada en nuevas teorías científicas, y en
+                        investigaciones y descubrimientos astronómicos.
+                    </p>
+                </div>
+                <div class="image-container1">
+                    <img src="https://mapaconceptualweb.com/wp-content/uploads/2020/09/mapa-conceptual-universo-2.jpg"
+                        alt="universo">
+                    <em>
+                        <figcaption class="pie">Tomado de https://mapaconceptualweb.com/universo/</figcaption>
+                    </em>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <h2 class="elementos_uni" id="elementos_uni">Elementos del Universo</h2>
+            <div class="section2">
+                <div class="info-intr">
+                    <h3>- Estrellas</h3>
+                    <div class="image-container1" id="img_uni">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Starsinthesky.jpg"
+                            alt="estrellas">
+                        <em>
+                            <figcaption class="pie">Tomado de https://es.wikipedia.org/wiki/Estrella</figcaption>
+                        </em>
+                        <br>
+                    </div>
+                    <p>
+                        Son cuerpos celestes de grandes dimensiones en cuyo interior se producen reacciones
+                        nucleares que provocan la emisión de una gran cantidad de energía, en forma de luz y
+                        calor, al espacio exterior. En el universo existe una gran variedad de estrellas que pueden
+                        clasificarse según su color y su tamaño.
+                    </p>
+                    <br>
+                    <h3>- Galaxias</h3>
+                    <p>
+                        Son enormes agrupaciones de cuerpos celestes, entre los que encontramos estrellas,
+                        planetas, nebulosas, asteroides, meteoritos, etc. De acuerdo con su forma, las
+                        galaxias se clasifican en:
+                    </p>
+                    <div class="diapos">
+                        <div class="slider-container">
+                            <div class="slider-content">
+                                <div class="slide">
+                                    <h4>Galaxias espirales</h4>
+                                    <div class="image-container">
+                                        <img src="https://www.ngenespanol.com/wp-content/uploads/2023/03/que-es-una-galaxia-y-como-se-forman-estas-colonias-espaciales.jpg"
+                                            alt="galaxia_espiral">
+                                    </div>
+                                    <p>
+                                        Están compuestas por una zona central o núcleo galáctico y brazos o espirales de
+                                        tamaño, número y brillo variables. Estas galaxias son las más conocidas.
+                                    </p>
+                                    <button class="btn-prev">Anterior</button>
+                                    <button class="btn-next">Siguiente</button>
+                                </div>
+                                <div class="slide">
+                                    <h4>Galaxias lenticulares</h4>
+                                    <div class="image-container">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/M104_ngc4594_sombrero_galaxy_hi-res.jpg/1200px-M104_ngc4594_sombrero_galaxy_hi-res.jpg"
+                                            alt="galaxia_lenticular">
+                                    </div>
+                                    <p>
+                                        Son una clase de galaxia espiral que tienen forma de disco y carecen de brazos,
+                                        debido a la pérdida de energía y materia de las estrellas que la conforman
+                                    </p>
+                                    <button class="btn-prev">Anterior</button>
+                                    <button class="btn-next">Siguiente</button>
+                                </div>
+                                <div class="slide">
+                                    <h4>Galaxias espirales de barra</h4>
+                                    <div class="image-container">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/52/Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg"
+                                            alt="galaxia_espirales_barra">
+                                    </div>
+                                    <p>
+                                        Como su nombre lo indica son similares a las espirales, pero tienen un núcleo
+                                        con
+                                        forma de barra en lugar de esférico, del cual emergen los brazos espirales.
+                                    </p>
+                                    <button class="btn-prev">Anterior</button>
+                                    <button class="btn-next">Siguiente</button>
+                                </div>
+                                <div class="slide">
+                                    <h4>Galaxias elípticas</h4>
+                                    <div class="image-container">
+                                        <img src="https://www.lifeder.com/wp-content/uploads/2019/09/M31_09-01-2011.jpg"
+                                            alt="galaxia_elipticas">
+                                    </div>
+                                    <p>
+                                        Están formadas por estrellas viejas. Son las galaxias más grandes conocidas y se
+                                        caracterizan por tener forma de elipse y carecer de brazos.
+                                    </p>
+                                    <button class="btn-prev">Anterior</button>
+                                    <button class="btn-next">Siguiente</button>
+                                </div>
+                                <div class="slide">
+                                    <h4>Galaxias irregulares</h4>
+                                    <div class="image-container">
+                                        <img src="https://media.es.wired.com/photos/64945fb8532fc59e0e8d4f67/4:3/w_2668,h_2001,c_limit/galaxia%20irregular%20ngc%207292.jpg"
+                                            alt="galaxia_irregulares">
+                                    </div>
+                                    <p>
+                                        Como su nombre lo indica, no tienen forma definida. Se considera que son
+                                        galaxias
+                                        jóvenes o en proceso de formación.
+                                    </p>
+                                    <button class="btn-prev">Anterior</button>
+                                    <button class="btn-next">Siguiente</button>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3>- Nebulosas</h3>
+                    <div class="image-container1" id="img_uni">
+                        <img src="https://www.telemadrid.es/2023/08/31/noticias/sociedad/_2592650756_42560730_1300x731.jpg"
+                            alt="nebulosas">
+                        <em>
+                            <figcaption class="pie">Tomado de
+                                https://www.telemadrid.es/noticias/sociedad/Nebulosas-donde-nacen-y-mueren-las-estrellas-0-2592640731--20230831075516.html
+                            </figcaption>
+                        </em>
+                        <br>
+                    </div>
+                    <p>
+                        Son enormes nubes formadas por la acumulación de polvo cósmico y gases como el hidrógeno y el
+                        helio. Estos cuerpos celestes se clasifican en nebulosas oscuras, que son
+                        aquellas que se encuentran alejadas de las estrellas y, por tanto, no emiten ningún brillo;
+                        en nebulosas por emisión, que captan la energía de alguna estrella cercana y la emiten
+                        en forma de brillo, y en nebulosas de reflexión, que, como su nombre lo indica,
+                        reflejan el brillo de una estrella cercana.
+
+                    </p>
+                    <br>
+                    <h3>- Agujeros negros</h3>
+                    <div class="image-container1" id="img_uni">
+                        <img src="https://www.ngenespanol.com/wp-content/uploads/2023/12/descubren-el-agujero-negro-mas-antiguo-un-monstruo-con-la-masa-de-16-millones-de-soles.jpg"
+                            alt="agujero_negro">
+                        <em>
+                            <figcaption class="pie">Tomado de
+                                https://www.ngenespanol.com/el-espacio/descubren-el-agujero-negro-mas-antiguo-un-monstruo-con-la-masa-de-16-millones-de-soles/
+                            </figcaption>
+                        </em>
+                        <br>
+                    </div>
+                    <p>
+                        Son regiones en el espacio que, debido a su gran fuerza gravitacional, absorben
+                        cualquier cuerpo cercano a ellas. Su fuerza es tan grande que ni siquiera la luz
+                        puede escapar.
+                    </p>
+                    <br>
+                    <h3>- Los cuásares</h3>
+                    <div class="image-container1" id="img_uni">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Gb1508_illustration.jpg/640px-Gb1508_illustration.jpg"
+                            alt="cuasares">
+                        <em>
+                            <figcaption class="pie">Tomado de
+                                https://es.wikipedia.org/wiki/Cu%C3%A1sar
+                            </figcaption>
+                        </em>
+                        <br>
+                    </div>
+                    <p>
+                        Son galaxias que emiten una gran cantidad de energía en forma de luz, radiación ultravioleta y
+                        ondas de radio. Estos cuerpos celestes son similares a los agujeros negros y, al igual que
+                        ellos, tienen una extraordinaria fuerza de atracción, pero, en lugar de absorber todo lo que
+                        encuentran a su paso, expulsan grandes cantidades de energía lo cual los hace visibles a pesar
+                        de la distancia.
+                    </p>
+                    <br>
+                    <h3>- Los planetas</h3>
+                    <div class="image-container1" id="img_uni">
+                        <img src="https://concepto.de/wp-content/uploads/2019/04/sistema-solar-planetas-e1554483553214.jpg"
+                            alt="planetas">
+                        <em>
+                            <figcaption class="pie">Tomado de
+                                https://concepto.de/planeta/
+                            </figcaption>
+                        </em>
+                        <br>
+                    </div>
+                    <p>
+                        Son cuerpos celestes opacos que, según la Unión Astronómica Internacional, reúnen
+                        las siguientes características:
+                    </p>
+                    <ul>
+                        <li>
+                            <p>
+                                Giran alrededor de una estrella. En el caso de la Tierra esta estrella es el Sol.
+                                Poseen una masa gaseosa o sólida, que les permite tener una gravedad suficiente
+                                para adoptar una forma esférica.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Su órbita o trayectoria alrededor de la estrella no contiene residuos cósmicos
+                                como asteroides o pequeñas nebulosas.
+                            </p>
+                        </li>
+                    </ul>
+
+                    <br>
+                    <h3>- Los satélites o lunas</h3>
+                    <div class="image-container1" id="img_uni">
+                        <img src="https://concepto.de/wp-content/uploads/2019/11/fases-de-la-luna-800x400.jpg"
+                            alt="satelites">
+                        <em>
+                            <figcaption class="pie">Tomado de
+                                https://concepto.de/fases-de-la-luna/
+                            </figcaption>
+                        </em>
+                        <br>
+                    </div>
+                    <p>
+                        Son cuerpos celestes que giran en una órbita alrededor de un planeta determinado.
+                        Todos los planetas del sistema solar, a excepción de Mercurio y Venus, tienen satélites
+                        naturales.
+                    </p>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <h2 class="oycuniverso" id="oycuniverso">Origen y composición del universo</h2>
+            <div class="section2">
+                <div class="info-intr">
+                    <p>El universo es todo lo que existe, incluyendo toda la materia, energía, espacio y tiempo. Se
+                        trata de un término utilizado para describir todo lo que podemos observar y medir, así como todo
+                        lo que aún no hemos descubierto. </p>
+                    <p>El universo es todo lo que existe, incluyendo toda la materia, energía, espacio y tiempo. Se
+                        trata de un término utilizado para describir todo lo que podemos observar y medir, así como todo
+                        lo que aún no hemos descubierto.
+                    </p>
+                    <p>
+                        Aunque la ciencia ha avanzado mucho en la comprensión del universo, todavía hay muchos misterios
+                        sin resolver, como la materia oscura y la energía oscura. Sin embargo, el estudio del universo
+                        continúa siendo una de las áreas más fascinantes y emocionantes de la ciencia.
+                    </p>
+                    <p>
+                        En todas las épocas, la humanidad ha tratado de entender la naturaleza en su conjunto, el
+                        Universo, y de comprender su lugar en él. Desde los orígenes de la civilización, todas las
+                        culturas han propuesto representaciones del Universo, de tipo mitológico o religioso primero, y
+                        desde un punto de vista científico después. La ciencia actual tiene su propia interpretación de
+                        cómo es el Universo, una idea del cosmos basada en nuevas teorías científicas, y en
+                        investigaciones y descubrimientos astronómicos.
+                    </p>
+                </div>
+
+                <div class="image-container">
+                    <img src="./logos/sky-space.jpg" alt="universo">
+                </div>
+            </div>
+
+            <br>
+            <hr>
+            <br>
+            <h2 class="sistemasolar" id="sistemasolar">Sistema solar</h2>
+            <div class="sectionn">
+                <div class="info-intr">
+                    <div class="section2" id="section2t">
+                        <div class="video" id="iframe-container1">
+                            <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/8dy27u_kX1I?si=drZFYH_r89_fI1Pc"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <p>El sistema solar es el contexto planetario en donde se encuentra nuestro planeta Tierra: un
+                        circuito en donde ocho planetas orbitan constantemente a una única estrella, el Sol. </p>
+
+                    <p>Nuestro sistema solar forma parte de la Nube Interestelar Local, dentro de la Burbuja Local del
+                        brazo de Orión, ubicada a unos 28.000 años luz del centro brillante de nuestra galaxia, la Vía
+                        Láctea. Se calcula que se haya formado hace 4568 millones de años, como consecuencia del colapso
+                        de una nube molecular en, dando origen a un Disco circunestelar o protoplanetario, es decir, un
+                        conjunto desordenado de materia rodeando al Sol en forma de anillos. De allí se habrían
+                        constituido los distintos planetas y objetos astronómicos de nuestro vecindario espacial.
+                    </p>
+                    <p>
+                        A Los objetos del Sistema solar, como en otros sistemas planetarios, se mantienen en una órbita
+                        elíptica alrededor del astro más grande y, por lo tanto, de mayor gravedad del sistema. En
+                        nuestro caso, claro, se trata del Sol, una estrella tipo-G de 1.392.000 kilómetros de diámetro
+                        total, que contiene el 99,86% de la masa total del Sistema Solar.
+                    </p>
+                </div>
+                <br>
+                <hr>
+                <br>
+                <h2>Planetas sistemas</h2>
+                <div>
+                    <div class="image-container1">
+                        <a href="https://www.nationalgeographic.com.es/ciencia/asi-son-8-planetas-sistema-solar_18432"
+                            target="_blank">
+                            <img src="https://media2.utp.edu.co/oficinas/62/2023/11/planetas-enanos1.jpg"
+                                alt="sistsolar">
+                        </a>
+                    </div>
+                    <p>
+                        Nuestro Sistema Solar contiene ocho planetas: los cuatro primeros (Mercurio, Venus, la Tierra
+                        y Marte) son conocidos como planetas interiores o rocosos y los cuatro siguientes (Júpiter,
+                        Saturno, Urano y Neptuno) como exteriores o gaseosos.
+                    </p>
+                    <p>
+                        Los planetas interiores o rocosos son los más próximos al Sol. Tienen núcleos metálicos y una
+                        corteza de aspecto rocoso.
+                    </p>
+                    <p>Los planetas exteriores o gaseosos, son los más alejados del Sol, también su núcleo es metálico,
+                        pero se encuentran rodeados de grandes capas en estado líquido y de atmósferas gaseosas muy
+                        profundas sobre todo por hidrógeno y helio.
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Sección 3 -->
+        <div class="section3" id="section3">
+            <div class="sub-section">
+                <h2>Aprende más y diviertete!</h2>
+                <p>Afianza lo aprendido a traves de este divertido cuestionario</p>
+                <a href="https://view.genial.ly/61936dc84faba50de6413581/interactive-content-quiz-sistema-solar"
+                    target="_blank">
+                    <button>Sistema solar</button>
+                </a>
+                <p>Aprende más sobre los planetas del sistema solar, animate a jugar!</p>
+                <a href="https://view.genial.ly/608f00b7da4dcb0d289aab64/interactive-content-aventura-en-el-sistema-solar"
+                    target="_blank">
+                    <button>Juego de planetas</button>
+                </a>
+            </div>
+            <h2>Control de lectura</h2>
+            <div class="sub-section">
+                <p>A través de esta evaluación, podrás comprobar lo aprendido!</p>
+                <a href="https://forms.gle/ntxinnEponGsteWz6" target="_blank">
+                    <button>Pon a prueba tus conocimientos</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="buscar.js"></script>
+    <script src="scripts_universo.js"></script>
+    <script src="menu.js"></script>
+</body>
+
+</html>

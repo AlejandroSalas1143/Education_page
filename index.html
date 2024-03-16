@@ -16,24 +16,21 @@
 
 <body>
     <nav>
-        <!-- Agrega un botón para abrir el menú -->
         <button class="menu-toggle" onclick="toggleMenu()">☰</button>
 
-        <!-- Estructura del menú desplegable -->
-        
-        <img src="./logo_universo.png" alt="logo" class="logo">
+        <img src="./logos/logo_universo.png" alt="logo" class="logo">
         <div class="navbar-left">
             <ul>
                 <li class="dropdown">
-                    <a href="#" class="nav-bot">El Universo</a>
+                    <a href="universo.html" class="nav-bot">El Universo</a>
                     <div class="dropdown-content">
-                        <a href="#">Concepto</a>
-                        <a href="#">Origen y composición del universo</a>
-                        <a href="#">El sistema solar</a>
+                        <a href="universo.html#concepto">Concepto</a>
+                        <a href="universo.html#oycuniverso">Origen y composición del universo</a>
+                        <a href="universo.html#sistemasolar">El sistema solar</a>
                     </div>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="nav-bot">La Tierra</a>
+                    <a href="tierra.html" class="nav-bot">La Tierra</a>
                     <div class="dropdown-content">
                         <a href="#">Origen de la tierra</a>
                         <a href="#">Las eras geológicas</a>
@@ -41,7 +38,7 @@
                     </div>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="nav-bot">Origen y evolución del ser humano</a>
+                    <a href="oyehumano.html" class="nav-bot">Origen y evolución del ser humano</a>
                     <div class="dropdown-content">
                         <a href="#">Origen y antepasado del hombre</a>
                         <a href="#">Migración y poblamiento de los continentes</a>
@@ -54,14 +51,14 @@
             <button onclick="search()">Buscar</button>
             <div id="navigationContainer"></div>
         </div>
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="universo.html">El Universo</a></li>
+                <li><a href="#">La Tierra</a></li>
+                <li><a href="#">Origen y evolución del ser humano</a></li>
+            </ul>
+        </div>
     </nav>
-    <div class="mobile-menu">
-        <ul>
-            <li><a href="#">El Universo</a></li>
-            <li><a href="#">La Tierra</a></li>
-            <li><a href="#">Origen y evolución del ser humano</a></li>
-        </ul>
-    </div>
     <div class="sections-container">
         <!-- Sección 1 -->
         <div class="section1">
@@ -71,6 +68,7 @@
                 <li><a href="#formuni">De qué está formado el universo?</a></li>
                 <li><a href="#Competencias_relacionadas">Competencias relacionadas</a></li>
                 <li><a href="#conoce">Conoce tu curso</a></li>
+                <!-- Agrega más elementos de lista según sea necesario -->
             </ul>
 
         </div>
@@ -99,7 +97,7 @@
                 </div>
 
                 <div class="image-container">
-                    <img src="./sky-space.jpg" alt="universo" id="sky">
+                    <img src="./logos/sky-space.jpg" alt="universo" id="sky">
                 </div>
             </div>
             <br>
@@ -107,7 +105,7 @@
             <br>
             <h2 id="formuni">De qué está formado el universo?</h2>
             <div class="section2" id="section2t">
-                <div class="info-intr" id="iframe-container">
+                <div class="info-intr">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/cSwYDntO4Bw?si=tDL3KKWaDP2seilc"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -188,8 +186,10 @@
             </div>
         </div>
     </div>
-    <script src="script.js"></script>
     <script src="scripts_index.js"></script>
+    <script src="buscar.js"></script>
+    <script src="menu.js"></script>
+    
 </body>
 
 </html>
