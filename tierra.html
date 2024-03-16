@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Espacio Geografico</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <nav>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <a href="index.html" class="logo">
+            <img src="./logo_universo.png" alt="logo" class="logo">
+        </a>
+        <div class="navbar-left">
+            <ul>
+                <li class="dropdown">
+                    <a href="universo.html" class="nav-bot">El Universo</a>
+                    <div class="dropdown-content">
+                        <a href="#">Concepto</a>
+                        <a href="#">Origen y composición del universo</a>
+                        <a href="#">El sistema solar</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="tierra.html" class="nav-bot">La Tierra</a>
+                    <div class="dropdown-content">
+                        <a href="#">Origen de la tierra</a>
+                        <a href="#">Las eras geológicas</a>
+                        <a href="#">Estructura de la tierra</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="oyehumano.html" class="nav-bot">Origen y evolución del ser humano</a>
+                    <div class="dropdown-content">
+                        <a href="#">Origen y antepasado del hombre</a>
+                        <a href="#">Migración y poblamiento de los continentes</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Buscar...">
+            <button onclick="search()">Buscar</button>
+            <div id="navigationContainer"></div>
+        </div>
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="universo.html">El Universo</a></li>
+                <li><a href="#">La Tierra</a></li>
+                <li><a href="oyehumano.html">Origen y evolución del ser humano</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="sections-container">
+        <!-- Sección 1 -->
+        <div class="section1">
+            <h2>Navega a través de esta sección</h2>
+            <ul class="Navegación">
+                <li><a href="#concepto">Concepto</a></li>
+                <li><a href="#otierra">Origen de la tierra</a></li>
+                <li><a href="#erageo">Las eras geológicas</a></li>
+                <li><a href="#estructierra">Estructura de la tierra</a></li>
+                <!-- Agrega más elementos de lista según sea necesario -->
+            </ul>
+
+        </div>
+
+        <!-- Sección 2 -->
+        <div class="section" id="section2">
+            <div class="image-container2">
+                <img src="https://img.freepik.com/foto-gratis/tierra-galaxia-elementos-imagen-proporcionados-nasa_335224-750.jpg?t=st=1710102625~exp=1710106225~hmac=01ac169c8fb25d2ee78f421d1e45689ecf7b6857be1b92d2c99172ebc022e5b1&w=996"
+                    alt="earth">
+            </div>
+            <h1>La tierra</h1>
+            <div>
+                <p>
+                    ¡Bienvenido al apasionante mundo de la Tierra! En este tema exploraremos tres temas importantes: el
+                    origen de la Tierra, las eras geológicas y la estructura de la Tierra.
+                </p>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <h2 class="concepto" id="concepto">Concepto</h2>
+            <div class="section2">
+                <div class="info-intr">
+                    <p>
+                        Empezaremos por el origen de la Tierra. ¿Alguna vez te has preguntado cómo se formó nuestro
+                        planeta? A lo largo de la historia, los científicos han estudiado la formación de la Tierra y
+                        han encontrado evidencia que sugiere que se formó hace aproximadamente 4.5 mil millones de años.
+                        Exploraremos cómo se formó nuestro planeta y cómo evolucionó a lo largo del tiempo.
+                    </p>
+                    <p>
+                        Continuaremos con las eras geológicas, que son períodos de tiempo en la historia de la Tierra
+                        caracterizados por cambios significativos en la vida y en el ambiente. Desde la era Paleozoica
+                        hasta la era Cenozoica, discutiremos los eventos geológicos importantes que ocurrieron durante
+                        cada era y cómo influyeron en el desarrollo de la vida en la Tierra.
+                    </p>
+                    <p>
+                        Por último, hablaremos sobre la estructura de la Tierra. Aunque parece sólida y estable, la
+                        Tierra es un planeta dinámico que está constantemente cambiando. Exploraremos las diferentes
+                        capas que componen nuestro planeta, incluyendo la corteza, el manto y el núcleo, y cómo
+                        interactúan para crear eventos geológicos como terremotos y volcanes.
+                    </p>
+                    <p>
+                        ¡Únete a nosotros en este emocionante viaje mientras exploramos el origen de la Tierra, las eras
+                        geológicas y la estructura de la Tierra!
+                    </p>
+                </div>
+
+                <div class="image-container">
+                    <img src="https://media.istockphoto.com/id/958983692/es/foto/planeta-tierra-y-sol.jpg?s=2048x2048&w=is&k=20&c=jzMAOjsnvu5gf4vy0FDLYrPkx5W-gNfjSaeh6bwDoII="
+                        alt="universo">
+                </div>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <h2 class="otierra" id="otierra">Origen de la tierra</h2>
+            <div class="section2">
+                <div class="info-intr">
+                    <p>
+                        Nuestro planeta Tierra es el tercer planeta del Sistema Solar, considerando su distancia al Sol,
+                        y el quinto de ellos según su tamaño. Está situada aproximadamente a unos 150 millones de
+                        kilómetros del Sol.
+                    </p>
+                    <p>
+                        Es el único planeta del universo que se conoce en el que exista y se origine la vida. La Tierra
+                        se formó al mismo tiempo que el Sol y el resto del Sistema Solar, hace 4570 millones de años. El
+                        volumen de la Tierra es más de un millón de veces menor que el Sol y la masa de la Tierra es
+                        nueve veces mayor que la de su satélite, la Luna. La temperatura media de la superficie
+                        terrestre es de unos 15 ºC.
+                    </p>
+                    <p>
+                        En su origen, la Tierra pudo haber sido sólo un agregado de rocas incandescentes y gases. A la
+                        forma de la Tierra (entendida como la altura media del mar o que adoptaría el mar en los
+                        continentes) se le denomina geoide. El geoide es una superficie similar a una esfera achatada
+                        por los polos (elipsoide). Su diámetro es de unos 12 700 km, más de diez veces la longitud de la
+                        península Ibérica.
+                    </p>
+                    <p>
+                        Las primeras culturas creían que la Tierra era plana. Algunos astrónomos eminentes de la
+                        Antigüedad plantearon la posibilidad de que la Tierra no fuese plana sino esférica, ya que de
+                        esa manera muchos fenómenos naturales tendrían una explicación lógica. Sin embargo, hasta el
+                        siglo XVI no se pudo demostrar que era esférica, cuando Juan Sebastián Elcano completó la
+                        primera vuelta al mundo a bordo de un barco. Al conjunto de disciplinas que estudian los
+                        procesos de diversas escalas temporal y espacial que gobiernan este planeta se le llama
+                        geociencias o ciencias de la Tierra.
+                    </p>
+                    <p>
+                        La Tierra disfruta de un satélite enorme y cercano, la Luna de 1/4 del diámetro terrestre.
+                    </p>
+                </div>
+
+                <div class="image-container">
+                    <img src="https://cdn.eso.org/images/screen/eso0932a.jpg" alt="orgtier">
+                    <img src="https://s3.abcstatics.com/abc/www/multimedia/ciencia/2022/11/11/tierra-luna-kAiByt-RcIsUio7l7PQVbm1tY7MVeK-1200x840@abc.jpg"
+                        alt="">
+                </div>
+                
+            </div>
+
+            <br>
+            <hr>
+            <br>
+            <h2 class="erageo" id="erageo">Las eras geológicas</h2>
+            <div class="section2" id="section2t">
+                <div class="info-intr" id="iframe-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/GC5Ixm4ehfQ?si=krDquzxc-sTehS1T"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <br>
+            <hr>
+            <br>
+            <h2 class="estructierra" id="estructierra">Estructura de la tierra</h2>
+            <div class="section2">
+                <div class="info-intr">
+                    <p>
+                        El conocimiento interno que se tiene acerca de la parte interna de la tierra es muy limitado, ya
+                        que, de los 6371 km que mide el radio total del planeta, solo se ha podido perforar unos 12
+                        kilómetros de profundidad. Sin embargo, algunos estudios han permitido establecer que el
+                        interior de la tierra está constituido por tres capas principales: Corteza, Manto y Núcleo.
+                    </p>
+                    <ul>
+                        <li>
+                            <p>
+                                <strong>CORTEZA:</strong> Es la capa más externa, rocosa y delgada de la tierra. Se
+                                divide en
+                                corteza continental
+                                y corteza oceánica. Esta capa es importante, ya que en ella se desarrolla la vida en
+                                todas sus
+                                manifestaciones y es allí también donde los seres humanos realizan todas sus
+                                actividades. Su
+                                parte más superficial se conoce como suelo.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>MANTO:</strong> Se divide en dos partes: el manto superior, en contacto con la
+                                corteza, alcanza los 650 km de profundidad y es donde se presenta la actividad tectónica
+                                del
+                                planeta: y el manto inferior, compuesto por diferentes minerales, alcanza los 2.900
+                                kilómetros
+                                de profundidad.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>NÚCLEO:</strong> Se divide en núcleo externo y núcleo interno. El núcleo externo
+                                es muy
+                                pesado, líquido y caliente, lo que hace que las rocas se derritan. El núcleo interno es
+                                denso y
+                                sólido debido a la presión a la que está sometido; se compone de hierro y níquel y
+                                soporta
+                                temperaturas de más de 4500°C.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="image-container">
+                    <img src="https://cienciassocialestic.files.wordpress.com/2016/04/capas-internas.jpg?w=453&h=340"
+                        alt="imagen">
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección 3 -->
+        <div class="section3" id="section3">
+            <div class="sub-section">
+                <h2>Aprende más y diviertete!</h2>
+                <p>Afianza lo aprendido a traves de este divertido cuestionario</p>
+                <button>Sistema solar</button>
+                <p>Aprende más sobre los planetas del sistema solar, animate a jugar!</p>
+                <button>Juego de planetas</button>
+            </div>
+            <h2>Control de lectura</h2>
+            <div class="sub-section">
+                <p>A través de esta evaluación, podrás comprobar lo aprendido!</p>
+                <button>Pon a prueba tus conocimientos</button>
+            </div>
+        </div>
+    </div>
+    <script src="buscar.js"></script>
+    <script src="menu.js"></script>
+</body>
+
+</html>
