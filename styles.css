@@ -476,7 +476,7 @@ html {
         box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
         transition: left 0.3s ease;
         z-index: 1000;
-        padding-top: 80px;
+        /* padding-top: 80px; */
     }
 
 
