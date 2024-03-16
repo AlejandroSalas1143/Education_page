@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Espacio Geografico</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description"
+        content="En esta pagina aprenderás todo lo referente a las explicaciones científicas y sagradas sobre el origen del universo y como este se encuentra conformado por galaxias, sistemas solares, estrellas y planetas entre otros.">
+</head>
+
+<body>
+    <nav>
+        <!-- Agrega un botón para abrir el menú -->
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+        <!-- Estructura del menú desplegable -->
+        
+        <img src="./logos/logo_universo.png" alt="logo" class="logo">
+        <div class="navbar-left">
+            <ul>
+                <li class="dropdown">
+                    <a href="#" class="nav-bot">El Universo</a>
+                    <div class="dropdown-content">
+                        <a href="#">Concepto</a>
+                        <a href="#">Origen y composición del universo</a>
+                        <a href="#">El sistema solar</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="nav-bot">La Tierra</a>
+                    <div class="dropdown-content">
+                        <a href="#">Origen de la tierra</a>
+                        <a href="#">Las eras geológicas</a>
+                        <a href="#">Estructura de la tierra</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="nav-bot">Origen y evolución del ser humano</a>
+                    <div class="dropdown-content">
+                        <a href="#">Origen y antepasado del hombre</a>
+                        <a href="#">Migración y poblamiento de los continentes</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Buscar...">
+            <button onclick="search()">Buscar</button>
+            <div id="navigationContainer"></div>
+        </div>
+    </nav>
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="#">El Universo</a></li>
+            <li><a href="#">La Tierra</a></li>
+            <li><a href="#">Origen y evolución del ser humano</a></li>
+        </ul>
+    </div>
+    <div class="sections-container">
+        <!-- Sección 1 -->
+        <div class="section1">
+            <h2>Navega a través de esta sección</h2>
+            <ul class="Navegación">
+                <li><a href="#intro">Introducción</a></li>
+                <li><a href="#formuni">De qué está formado el universo?</a></li>
+                <li><a href="#Competencias_relacionadas">Competencias relacionadas</a></li>
+                <li><a href="#conoce">Conoce tu curso</a></li>
+            </ul>
+
+        </div>
+
+        <!-- Sección 2 -->
+        <div class="section" id="section2">
+            <h2 id="intro">Introducción</h2>
+            <div class="section2">
+                <div class="info-intr">
+                    <p>Apreciado estudiante, bienvenido a esta unidad temática, en esta oportunidad aprenderás todo lo
+                        referente
+                        a las explicaciones científicas y sagradas sobre el origen del universo y como este se encuentra
+                        conformado por galaxias, sistemas solares, estrellas y planetas entre otros. Seguidamente podrás
+                        descubrir cómo se originó y está conformado nuestro planeta y como este fue cambiando poco a
+                        poco
+                        hasta
+                        permitir el surgimiento de las primeras formas de vida, entre ellas la humanidad. </p>
+                    <p>El origen y evolución del universo, la Tierra y la humanidad son temas apasionantes que resultan
+                        ser objeto de estudio y descubrimiento en la actualidad. Ya que nos permite explorar nuevas
+                        ideas y perspectivas sobre el mundo y sobre nosotros mismos. Nos permite desarrollar una
+                        comprensión más profunda de la naturaleza de la realidad y nuestra conexión con ella, lo que
+                        puede ayudarnos a encontrar significado y propósito en nuestras vidas. En resumen, el
+                        conocimiento del origen y la evolución del universo, la Tierra y la humanidad es esencial para
+                        nuestro desarrollo como seres humanos y nuestra capacidad para crear un futuro mejor para todos.
+                    </p>
+                </div>
+
+                <div class="image-container">
+                    <img src="./logos/sky-space.jpg" alt="universo" id="sky">
+                </div>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <h2 id="formuni">De qué está formado el universo?</h2>
+            <div class="section2" id="section2t">
+                <div class="info-intr" id="iframe-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cSwYDntO4Bw?si=tDL3KKWaDP2seilc"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <h2 id="Competencias_relacionadas">Competencias relacionadas</h2>
+            <P>Además de aprender sobre el universo a través de cada una de las secciones y actividades preparadas
+                para ti, tendrás la oportunidad de fortalecer las siguientes competencias:</P>
+            <div class="slider-container">
+                <div class="slider-content">
+                    <div class="slide">
+                        <h3>Competencia Cognitiva</h3>
+                        <div class="image-container">
+                            <img src="https://img.freepik.com/vector-gratis/personas-conectando-piezas-rompecabezas-cabeza-juntos_53876-64610.jpg?t=st=1709421301~exp=1709424901~hmac=f2cd1e4ad4e4c70dd769f76a249b54aa59641edd36d579f27073429e42ac8521&w=1060"
+                                alt="Cognitiva">
+                        </div>
+                        <p>
+                            Interpreta diferentes teorías científicas sobre el
+                            origen del universo (Big Bang, inflacionaria, multiuniversos),que le permiten reconocer
+                            cómo
+                            surgimos, cuándo y por qué.
+                        </p>
+                        <button class="btn-prev">Anterior</button>
+                        <button class="btn-next">Siguiente</button>
+                    </div>
+                    <div class="slide">
+                        <h3>Competencia Actitudinal</h3>
+                        <div class="image-container">
+                            <img src="https://img.freepik.com/vector-gratis/fondo-liderazgo-estilo-flat_23-2147945495.jpg?t=st=1709421329~exp=1709424929~hmac=27e4bffd05e720a3b7e7777500e879472d0aba3b4765eaac4acccaee32620668&w=826"
+                                alt="Actitudinal">
+                        </div>
+                        <p>
+                            Asume una posición crítica frente a las teorías del origen del universo, encontrando
+                            elementos positivos y negativos de cada una.
+                        </p>
+                        <button class="btn-prev">Anterior</button>
+                        <button class="btn-next">Siguiente</button>
+                    </div>
+                    <div class="slide">
+                        <h3>Competencia Comunicativa</h3>
+                        <div class="image-container">
+                            <img src="https://img.freepik.com/vector-premium/intercambio-informacion-brecha-comunicacion-efectiva-dos-personas-negocios-discutiendo-peleando_330096-69.jpg?w=826"
+                                alt="comunicativa">
+                        </div>
+                        <p>
+                            Realiza lectura comprensiva de los diferentes temas propuestos y expresa con argumentos
+                            su
+                            punto de vista
+                        </p>
+                        <button class="btn-prev">Anterior</button>
+                        <button class="btn-next">Siguiente</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <br>
+            <h2 id="conoce">Conoce tu curso!</h2>
+            <p>Al dar click en la siguiente imagen podrás visualizar la temática del curso, los objetivos y alcances del
+                mismo.</p>
+            <div class="image-container1">
+                <a href="https://www.canva.com/design/DAFR3zURCCQ/KmsDPZniHYlhIaR42gC_hw/view" target="_blank">
+                    <img src="https://img.freepik.com/psd-gratis/render-3d-personaje-astronauta_23-2151214907.jpg?w=826&t=st=1710086930~exp=1710087530~hmac=d85f51c244b43b77bbd7eb90070659d2270b5575b89592bd25d85eb71a0c510b"
+                        alt="conoce">
+                </a>
+            </div>
+
+        </div>
+
+        <!-- Sección 3 -->
+        <div class="section33" id="section3">
+            <div class="imgsub-section">
+                <img src="https://img.freepik.com/foto-gratis/fondo-pantalla-concepto-astral_23-2150038869.jpg?t=st=1710088300~exp=1710091900~hmac=3b0f5ab0c358f171635dc4786c159abbb5ab391eebb911abfc923a9d2349c259&w=360"
+                    alt="">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="scripts_index.js"></script>
+</body>
+
+</html>
