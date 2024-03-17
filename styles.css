@@ -377,14 +377,6 @@ html {
 .image-container1 {
     text-align: center;
 }
-.image-container3 {
-    text-align: center;
-}
-
-.image-container3 img {
-    max-width: 400px;
-    height: auto;
-}
 
 .image-container1 img {
     max-width: 80%;
@@ -578,10 +570,12 @@ html {
     .image-container {
         display: flex;
         justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 
     .image-container img {
-        max-width: 100%;
+        max-width: 80%;
         height: auto;
     }
 
@@ -590,10 +584,6 @@ html {
         height: auto;
     }
 
-    .image-container3 img {
-        max-width: 80%;
-        height: auto;
-    }
 
     #sky {
         max-width: 80%;
