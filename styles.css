@@ -207,21 +207,25 @@ input[type="text"] {
     display: flex;
     align-items: center;
 }
- .aprende{
+
+.aprende {
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-between;
 }
+
 .info-intr>p {
     flex: 1;
     margin-top: 0;
     margin-right: 20px;
     text-align: justify;
 }
+
 .info-intr ul {
     /* list-style-type: none; */
     padding-left: 20px;
     /* margin: 0; */
 }
+
 .info-intr ul li {
     /* margin-top: 10px; */
     margin-right: 16px;
@@ -372,6 +376,14 @@ html {
 
 .image-container1 {
     text-align: center;
+}
+.image-container3 {
+    text-align: center;
+}
+
+.image-container3 img {
+    max-width: 400px;
+    height: auto;
 }
 
 .image-container1 img {
@@ -526,23 +538,6 @@ html {
         padding: 8px;
     }
 */
-    .image-container{
-        display: flex;
-        justify-content: center;
-    }
-    .image-container img{
-        max-width: 100%;
-        height: auto;
-    }
-    .image-container1 img{
-        max-width: 80%;
-        height: auto;
-    }
-    #sky {
-        max-width: 80%;
-        height: auto;
-    }
-
     .sections-container {
         position: absolute;
         top: 80px;
@@ -579,7 +574,34 @@ html {
         align-items: center;
         /* Centra el contenido horizontalmente */
     }
-    .aprende{
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .image-container img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .image-container1 img {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .image-container3 img {
+        max-width: 80%;
+        height: auto;
+    }
+
+    #sky {
+        max-width: 80%;
+        height: auto;
+    }
+
+
+    .aprende {
         /* display: flex; */
         flex-direction: column;
         align-items: center;
@@ -598,7 +620,8 @@ html {
     }
 
     .info-intr {
-        text-align: center; /* Centra el contenido horizontalmente */
+        text-align: center;
+        /* Centra el contenido horizontalmente */
     }
 
     #iframe-container iframe {
