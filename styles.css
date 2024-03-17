@@ -421,8 +421,11 @@ html {
     display: none;
     /* Oculta el botón en pantallas grandes */
 }
+.juego {
+    display: none;
+}
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     nav {
         position: fixed;
         width: 100%;
@@ -566,6 +569,9 @@ html {
         align-items: center;
         /* Centra el contenido horizontalmente */
     }
+    .juego{
+        display: block;
+    }
 
     .image-container {
         display: flex;
@@ -581,6 +587,17 @@ html {
 
     .image-container1 img {
         max-width: 80%;
+        height: auto;
+    }
+    .image-container3{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .image-container3 img {
+        max-width: 50%;
         height: auto;
     }
 
