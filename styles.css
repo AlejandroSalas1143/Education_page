@@ -207,11 +207,24 @@ input[type="text"] {
     display: flex;
     align-items: center;
 }
-
+ .aprende{
+    display: flex;
+    justify-content: space-between ;
+}
 .info-intr>p {
     flex: 1;
     margin-top: 0;
     margin-right: 20px;
+    text-align: justify;
+}
+.info-intr ul {
+    /* list-style-type: none; */
+    padding-left: 20px;
+    /* margin: 0; */
+}
+.info-intr ul li {
+    /* margin-top: 10px; */
+    margin-right: 16px;
     text-align: justify;
 }
 
@@ -267,7 +280,10 @@ input[type="text"] {
 #Competencias_relacionadas,
 #elementos_uni,
 #formuni,
-#conoce {
+#conoce,
+#ante,
+#homin,
+#aprendizaje {
     scroll-margin-top: 120px;
     /* Ajusta según la altura de tu barra de navegación */
 }
@@ -359,7 +375,7 @@ html {
 }
 
 .image-container1 img {
-    max-width: 400px;
+    max-width: 80%;
     height: auto;
 }
 
@@ -562,6 +578,11 @@ html {
         /* Cambia la dirección de flexión para que los elementos se apilen verticalmente */
         align-items: center;
         /* Centra el contenido horizontalmente */
+    }
+    .aprende{
+        /* display: flex; */
+        flex-direction: column;
+        align-items: center;
     }
 
     /* .info-intr p {
